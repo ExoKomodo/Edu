@@ -1,12 +1,94 @@
 <header>
   <h2>Environment Setup</h2>
   <em>TODO: Explain how software development is like architecture</em>
-  
   <br />
 
   <header>
     <h3>Laying a foundation</h3>
     <em>TODO: Explain how the foundation is the true basics like: setting up a git repo, adding a basic README, setting up basic folders, and creating an install script for basic tools</em>
+    <p>
+      You are never benefitted from waiting to lay your foundation. Your foundation consists of the most important thing to every codebase, the code itself. To get a tangible feeling on the code, what a developer does is they make a <a href="https://en.wikipedia.org/wiki/Repository_(version_control)">source control repository</a>.
+      Now there are a few different options out there for source control:
+      <ul>
+        <li>
+          <a href="https://git-scm.com">Git</a>
+        </li>
+        <li>
+          <a href="https://subversion.apache.org/">Subversion</a>
+        </li>
+        <li>
+          <a href="https://www.mercurial-scm.org/">Mercurial</a>
+        </li>
+      </ul>
+      In my professional career, I have used subversion and git. I have never witnessed a mercurial repo. For each one, you have a choice of different ways to interact with it. I will give you my personal experience with these choices for source control, and my honest opinion on their merits.
+      <ul>
+        <li>
+          Git
+          <ul>
+            <li><a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git">The official git client</a> from the git project, source code available <a href="https://github.com/git/git">here</a>.</li>
+            <li><a href="https://code.visualstudio.com/">VSCode</a> is a very competent git client and will help ensure installation.</li>
+            <li><a href="https://www.sublimemerge.com/">Sublime Merge</a> is a git client from the creators of the <a href="https://www.sublimetext.com/">Sublime Text</a> code editor</li>
+            <li><a href="https://desktop.github.com/">Github Desktop</a> will work best if you will be using Github. This tool is not intended to be used with non-Github repos.</li>
+            <li><a href="https://git-scm.com/downloads/guis">Git's suggested GUI clients</a></li>
+          </ul>
+        </li>
+        <li>
+          Subversion (mostly usable on <a href="https://en.wikipedia.org/wiki/Microsoft_Windows">Windows</a>)
+          <ul>
+            <li><a href="https://tortoisesvn.net">TortoiseSVN</a> is the only client I ever used or was made aware of before making this course</li>
+            <li><a href="https://en.wikipedia.org/wiki/Comparison_of_Subversion_clients">Comparison of clients</a></li>
+          </ul>
+        </li>
+        <li>
+          Mercurial
+          <ul>
+            <li>I have no idea and if you find yourself using Mercurial, something else is likely wrong already.</li>
+          </ul>
+        </li>
+      </ul>
+
+      I think the point may have already come across, but I don't generally think of using Subversion or Mercurial for source control management. I have heard of their being merits to these systems in specific cases.
+      If you consider these are entirely different tools, the assumption tracks and you won't be surprised to learn that this is because <a href="https://www.perforce.com/blog/vcs/git-vs-svn-what-difference">they're designed entirely differently</a>.
+      <br /><br />
+      tl;dr
+      <ul>
+        <li>
+          Git allows the developer to work locally without network connection. You hold a copy of the repo state on your local computer, and occasionally synchronize with the centralize git server when "pushing" changes
+        </li>
+        <li>
+          Subversion requires that any source control operations you perform be negotiated and handled by the centralized svn server, following a centralized client-server model:
+          <iframe src="https://www.youtube-nocookie.com/embed/BrT3AO8bVQY?start=174" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="width: 40vw; height: 40vh;"></iframe>
+        </li>
+      </ul>
+
+      <ul>
+        <li>Git repository</li>
+        <ul>
+          <li>Edu's own git course is <strong>not available in this demo</strong></li>
+          <li>Other resources:</li>
+          <ul>
+            <li>
+              <a href="https://gitimmersion.com">Git Immersion</a>: a guided tour through a demo software project, showing you different scenarios you may run into while using <a href="https://git-scm.com">git</a>
+            </li>
+            <li>
+              <a href="https://git-scm.com/doc">Git - Docs</a>: official documentation, from the git project
+            </li>
+            <li>
+              <a href="https://git-scm.com/docs">Git - Quick Reference</a>: quick reference to git on the command line, from the git project
+            </li>
+            <li>
+              <a href="https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html">Gitlab - Command Line Git Reference</a>: a helpful and simple reference and guide to git on the command line, from Gitlab
+            </li>
+            <li>
+              <a href="https://code.visualstudio.com/docs/sourcecontrol/overview">VSCode - How to use git</a>: walks through basic git usage, via VSCode's interface (anything you learn for git on the command line can be used in VSCode's integrated terminal)
+            </li>
+          </ul>
+        </ul>
+      </ul>
+
+      TODO: Continue here
+      Everything I have learned about 
+    </p>
   </header>
   
   <br />
