@@ -27,7 +27,7 @@ export default class SectionService {
     if (!template) {
       return '';
     }
-    // NOTE: Match and captures what is between ${}, to replace with presigned URLss
+    // NOTE: Match and captures what is between ${}, to replace with presigned URLs
     const re = /"\${([0-9a-zA-Z_\-\/\.]+)}"/g;
     const presignedUrls = new Map<string, string>();
     for (let match of template.matchAll(re)) {

@@ -1,0 +1,40 @@
+<header>
+  <h2>Environment Setup</h2>
+  <em>TODO: Explain how software development is like architecture</em>
+  
+  <br />
+
+  <header>
+    <h3>Laying a foundation</h3>
+    <em>TODO: Explain how the foundation is the true basics like: setting up a git repo, adding a basic README, setting up basic folders, and creating an install script for basic tools</em>
+  </header>
+  
+  <br />
+
+  <header>
+    <h3>Putting up framing</h3>
+    <em>TODO: Explain how framing is choosing your kinds of components you need and what languages, libraries, and/or frameworks to use: choose your basic tools, and instantiate the project structure for them. Update READMEs as such.</em>
+  </header>
+  
+  <br />
+
+  <header>
+    <h3>Installing utilities</h3>
+    <em>TODO: Explain how utilities like water and electric are like testing and CI/CD: automation MUST be done early to retain simplicity. Link to video timestamp of Casey (video game engine legend, i.e. <a href="https://youtube.com/playlist?list=PLnuhp3Xd9PYTt6svyQPyRO_AAuMWGxPzU">Handmade Hero</a>)</em>
+  </header>
+  
+  <br />
+
+  <header>
+    <h3>Hanging walls</h3>
+    <em>TODO: Explain how hanging walls is like setting up at least one full public API entrypoint for your application: Setting up one entrypoint for your app means it provides a function of some kind. In a sense, this is a "complete" application. It could be a <a href="https://www.bmc.com/blogs/microservice-vs-nanoservice/">nanoservice</a>, but that is ludicrous. If you have a user pathway impelemented, every following pathway can be patterned off of the complete entrypoint.</em>
+  </header>
+  
+  <br />
+
+  <header>
+    <h3>Inspection</h3>
+    <em>TODO: Enable special features and compliances: go through how source control management systems like github, bitbucket, and gitlab all have compliance features and a lot of nice features to utilize in planning a project. Expose them a little bit to github features and mostly link a bunch of articles.</em>
+  </header>
+  
+</header>

@@ -7,7 +7,6 @@ export default class BlogService {
       return await HttpServiceV1.getAsync<Blog>('blog', id, options);
     }
     catch (err: any) {
-      console.error(err);
       options.toast?.error(`Failed to get blog: ${err}`);
       throw err;
     }
