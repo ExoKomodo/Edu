@@ -20,7 +20,13 @@
           <a href="https://www.mercurial-scm.org/">Mercurial</a>
         </li>
       </ul>
-      In my professional career, I have used subversion and git. I have never witnessed a mercurial repo. For each one, you have a choice of different ways to interact with it. I will give you my personal experience with these choices for source control, and my honest opinion on their merits.
+      In my professional career, I have used subversion and git. I have never witnessed a mercurial repo, but know that they are famously used at companies like Facebook and Google. 
+      <br>
+      There is not one end-all be-all solution for version control, but use whatever is most available to the context you are working in. In the end, they are going to be doing the same thing, and it is more important to initially maintain a general understanding of all things around you.
+      <br>
+      I speak more about my philosophy of general understanding over <a href="/blog/understanding">here on the Edu blog</a>.
+      <br>
+      For each version control solution, you have a choice of different ways to interact with it. I will give you my personal experience with these choices for source control, and my honest opinion on their merits.
       <ul>
         <li>
           Git
