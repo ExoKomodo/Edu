@@ -1,0 +1,58 @@
+<header>
+  <h2>By: James Orson</h2>
+  <h3>July 8th, 2023</h3>
+  <p>
+    I was talking to a dear friend back in February about <a href="https://www.typescriptlang.org/">Typescript</a> and <a href="https://nuxt.com/">Nuxt</a>. He was trying to lazy load an image and was getting a peculiar type error and nothing showing for the image. He started to complain a little bit after I sent him <a href="https://stackoverflow.com/a/41904270">this StackOverflow post</a>. I replied to his moaning with the following written words:
+    <br>
+  </p>
+  <p>
+    <h4>Oh no! UNDERSTANDING!</h4>
+    I wanted my friend to realize that by defining his type as follows
+    <pre>
+      <code lang="Typescript">
+        image: any
+      </code>
+    </pre>
+    he had lost all ability to <a href="https://en.wikipedia.org/wiki/Grok">grok</a> his code because he now has no guarantee about what that field holds.
+    <br>
+    He reads this SO post and it simply frustrates him further because it asks him to answer a question to get an answer to his question. He does need to think about what context this image is used to know what type it is, and specify it himself.
+    <br>
+    Is this a bother? Yes.
+    <br>
+    Is uncertainty burdernsome? Generally.
+    <br>
+    Does it feel nice to have to ask, "What does this field even mean?" Likely not
+    <br>
+    <a href="https://www.britannica.com/topic/Golden-Rule">The Golden Rule</a> can be applied in more ways than simply, "Would I have someone do this to me?" You can also ask, "Would I wish someone had prevented this from happening to me?"
+    <br>
+    Applying this concept liberally in my work, I become driven to correct any issue of <em>understanding</em> that I encounter. If I happened to have the contextual understanding, the next dev may not have the same privilege as I, so it is best for me to correct it. If I do not understand what I am reading, it is best if I come to a degree of understanding and make that more accessible for the next developer. To circle back, I wish those who came before me had done the same for me, so it is my prerogative to do so now.
+    <br><br>
+    So applying this to our situation with the StackOverflow post, there are a minimum of three possible things this image represented: <code>HTMLImageElement</code>, <code>File</code>, and <code>String</code>
+    <br>
+    In his case, the type was an <code>HTMLImageElement</code>, so by changing his type definition to the following:
+    <pre>
+      <code lang="Typescript">
+        image: HTMLImageElement
+      </code>
+    </pre>
+    He was now able to know what this represented, and his VSCode editor was able to autocomplete suggestions for him. The image showed up and he was off to the races.
+    <br>
+    Now if any developer comes along, they see <code>HTMLImageElement</code>. They can now go <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement">read the docs on MDN</a> and there is never a question of what this represents again from anyone.
+    <br><br>
+    My friend was lamenting being that guy who lacked understanding and had to fix it for those who come after him. In his case, the man coming after him every day would be himself, so this could be a form of self-love as well! If you approach this situation instead with wonder and interest, joy can be found in knowing you showed care for another or yourself.
+    <br>
+  </p>
+  <p>
+    <h4>How does one get to that point of understanding then?</h4>
+
+    <!-- TODO: Finish this out -->
+
+    Asking "What am I trying to do , generally?" rather than "What is everything this tool is capable of doing and how exactly do I tell it?"
+    <br>
+    Both of these are questions you must eventually answer, but the former must be queried and answered before the latter is considered.
+    <br>
+    I find that people often consider this counterintuitive at first. If I need to perform a task, I should try to find the tool or solution that most closely matches my needs, right?
+    <br>
+  </p>
+  
+</header>
