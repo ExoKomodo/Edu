@@ -7,6 +7,10 @@
     "2": {
       "Description": "What about after you learn to code?",
       "Title": "After The Capstone"
+    },
+    "understanding": {
+      "Description": "Tools for more quickly approaching an understanding of new technologies and concepts",
+      "Title": "Understanding"
     }
   }
 }
